@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.app > * {
+    height: 100vh;
+
+}
+
+
+
+body {
+    font-size: 1.6rem;
+    margin: 2.2rem 0 2.2rem;
+}
+
+html, body, input {
+    font-family: 'Mulish', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #065E7C;
+    height: 7.2rem;
+
+    
+}
+
+nav .input-wrapper input {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border: 0;
+    border-radius: 0.4rem;
+    background: #387E96;
+    color: #ffffff;   
+}
+
+nav .input-wrapper input::placeholder {
+    width: 100%;
+    opacity: 0.56;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+nav  #logo {
+    border-radius: 50%;
+    padding: .8rem;
+    background: #F4FCFF;
+    margin-left: 2.8rem;
+    
+}
+
+nav .avatar {
+    border-radius: 50%;
+    margin-right: 2.8rem;
+}
+
+.cat {
+    width: fit-content;
+    margin-bottom: 3.1rem;
+
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+button {
+    border-radius: 50%;
+    border: 0;
+    background: #065E7C;
+    padding: 1.2rem;
+    
+}
+
+.fingers {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 3.1rem;
+}
+
+button:hover {
+    opacity: 0.56;
+}
+
+section {
+    margin-bottom: 3.4rem;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    line-height: 160%;
+    
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+
+article {
+  display:flex;
+  align-items: center;
+  gap: 1.8rem
+
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 0.1rem;
+
+    
+}
+
+article p {
+    font-size: 1.4rem;
+    margin-bottom: 3.2rem;
+   
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #387E96;
+    height: 6.4rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 3.9rem;
+}
+
+@media (min-width: 700px) {
+
+    body {
+        max-width: fit-content;
+    }
+
+    
+
+
+}
