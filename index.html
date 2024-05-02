@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog dos Gatos</title>
+    <title>Blog de Gatos</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
@@ -17,38 +17,36 @@
     <div id="app">
         <header>
             <nav>
-                <figure>
-                    <img id="logo" src="./image/logo-paw.svg" alt="logo de uma patinha"/>
-                </figure>
+                <figrure>
+                    <img class="paw" src="assets/logo-paw.svg" alt="patinha de gato"/>
+                </figrure>
 
                 <form>
-                    <div class="input-wrapper">
-                        <input type="search" placeholder="Pesquise por artigos"/>
-                    </div>
+                    <input type="search" placeholder="Pesquise por artigos"/>
                 </form>
 
                 <figure>
-                    <img class="avatar" src="./image/avatar.jpg" alt="imagem de uma pessoa"/>
+                    <img class="avatar" src="./assets/avatar.jpg" alt="Minha imagem"/>
                 </figure>
             </nav>
-
         </header>
+
         <main>
-            <figure>
-                <img class="cat" src="./image/cat.jpg" alt="gato no por do sol"/>
-            </figure>
+            <div class="cat">
+                <figure>
+                    <img src="./assets/cat.jpg" alt="Imagem de um gato ao por do sol"/>
+                </figure>
+            </div>
 
             <h1>Seriam os gatos astronautas?</h1>
 
-            <div class="fingers">
-                <button>
-                    <img src="./image/like.svg" alt="sinal de like"/>
-                </button>
+            <button>
+                <img class="like" src="./assets/like.svg" alt="imagem de um sinal de like"/>
+            </button>
 
-                <button>
-                    <img src="./image/deslike.svg" alt="sinal de deslike"/>
-                </button>
-            </div>
+            <button>
+                <img class="deslike" src="./assets/deslike.svg" alt="imahem de um sinal de deslike"/>
+            </button>
 
             <section>
                 <p>
@@ -58,7 +56,7 @@
                     recentemente, uma teoria tem ganhado espaço na internet e entre teóricos de 
                     conspiração: seriam os gatos astronautas?
                 </p>
-                <br/>
+
                 <p>
                     A teoria sugere que os gatos não são animais terrestres, mas sim seres 
                     extraterrestres enviados para realizar uma missão específica em nosso 
@@ -66,8 +64,11 @@
                     eram considerados seres sagrados em diferentes culturas e até mesmo 
                     associados a figuras divinas. Isso poderia indicar que os gatos têm uma 
                     origem muito mais mística do que se pensava anteriormente.
+
                 </p>
+
                 <br/>
+
                 <p>
                     Além disso, há teóricos que acreditam que os felinos possuem habilidades 
                     telepáticas e são capazes de se comunicar com outras espécies alienígenas. 
@@ -77,71 +78,65 @@
                     boreal. Esses e outros indícios foram interpretados como sinais de que os gatos 
                     seriam seres interplanetários.
                 </p>
-
             </section>
 
             <aside>
                 <h2>Artigos relacionados</h2>
-                <article>
-                    <figure>
-                        <img src="./image/cat-01.jpg" alt="gato dentro de uma caixa"/>
+                
+                <div class="artigos">
+                    <figure class="item">
+                        <img src="./assets/cat-01.jpg" alt="imagem de um gato dentro de uma caixa"/>
+                        <figcaption>
+                            <h3>Sábado preguiçoso</h3>
+                            <span>Descubra atividades interessantes para fazer com seu pet durante os finais de semana.</span>
+                        </figcaption>
                     </figure>
-                    <h3>Sábado preguiçoso</h3>
-                    <p>
-                        Descubra atividades interessantes para fazer com seu pet durante os finais de 
-                        semana.
-                    </p>
-                </article>
+                </div>
 
-                <article>
-                    <figure>
-                        <img src="./image/cat-02.png" alt="gatos dentro de um balaio"/>
+                <div class="artigos">
+                    <figure class="item">
+                        <img src="./assets/cat-02.png" alt="imagem de gatos dentro de balaio"/>
+                        <figcaption>
+                            <h3>Balaio de gatos</h3>
+                            <span>Como evitar confusões entre seus gatíneos e acostumá-los desde filhotes.</span>
+                        </figcaption>
                     </figure>
-                    <h3>Balaio de gatos</h3>
-                    <p>
-                        Como evitar confusões entre seus gatíneos e acostumá-los desde filhotes.
-                    </p>
-                </article>
+                </div>
 
-                <article>
-                    <figure>
-                        <img src="./image/cat-03.jpg" alt="gato numa parede colorida"/>
+                <div class="artigos">
+                    <figure class="item">
+                        <img src="./assets/cat-03.jpg" alt="imagem de um gato ao lado de uma parede colorida"/>
+                        <figcaption>
+                            <h3>Cartela de cores</h3>
+                            <span>Seu gato é inverno intenso? Verão profundo? Descubra as cores que mais combinam com seu bichano.</span>
+                        </figcaption>
                     </figure>
-                    <h3>Cartela de cores</h3>
-                    <p>
-                        Seu gato é inverno intenso? Verão profundo? Descubra as cores que mais 
-                        combinam com seu bichano.
-                    </p>
-                </article>
+                </div>
 
-                <article>
-                    <figure>
-                        <img src="./image/cat-04.jpg" alt="gato debaixo de uma coberta"/>
+                <div class="artigos">
+                    <figure class="item">
+                        <img src="./assets/cat-04.jpg" alt="imagem de um gato debaixo do cobertor"/>
+                        <figcaption>
+                            <h3>Os gatos sentem frio?</h3>
+                            <span>Preparem-se para a frente fria que vem para o país da melhor maneira possível.</span>
+                        </figcaption>
                     </figure>
-                    <h3>Os gatos sentem frio?</h3>
-                    <p>
-                        Preparem-se para a frente fria que vem para o país da melhor maneira possível.
-                    </p>
-                </article>
+                </div>
 
-                <article>
-                    <figure>
-                        <img src="./image/cat-05.jpg" alt="gato moacir sobre uma cama"/>
+                <div class="artigos">
+                    <figure class="item">
+                        <img src="./assets/cat-05.jpg" alt="imagem do gato moacir sobre uma cama"/>
+                        <figcaption>
+                            <h3>Conheça o Moacir</h3>
+                            <span>Moacir é o gatinho da semana do nosso blog. Venha conhecer sua história de superação.</span>
+                        </figcaption>
                     </figure>
-                    <h3>Conheça o Moacir</h3>
-                    <p>
-                        Moacir é o gatinho da semana do nosso blog. Venha conhecer sua história de superação.
-                    </p>
-                </article>
+                </div>
             </aside>
         </main>
 
-        <footer>
-            <p>@ 2023 - Rocketseat Explorer</p>
-        </footer>
-
+        <footer>© 2023 - Rocketseat Explorer</footer>
     </div>
-
     
 </body>
 </html>
