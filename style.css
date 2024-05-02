@@ -12,9 +12,7 @@
     font-size: 62.5%;
 }
 
-body {
-    max-width: fit-content;
-}
+
 
 html, body, input {
     font-family: 'Mulish', sans-serif;
@@ -27,6 +25,7 @@ html, body, input {
     display: grid;
     grid-template-rows: max-content 1fr max-content;
     height: 100vh;
+    
 }
 
 
@@ -37,6 +36,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     height: 7.2rem;
+    
 }
 
 header nav .paw {
@@ -55,7 +55,8 @@ header nav input {
     border-radius: 0.4rem;
     height: 4.0rem;
     background: #387e96;
-    width: 100%
+    font-weight: 600;
+
 }
 
 header nav input::placeholder {
@@ -65,16 +66,18 @@ header nav input::placeholder {
     
 }
 
+main, section {
+    padding: 2.2rem;
+}
+
+
+
 .cat {
    
     width: 100%;
     margin-bottom: 3.1rem;
 }
 
-h1, button, section, aside {
-    margin-left: 2.2rem;
-    margin-right: 2.6rem;
-}
 
 h1 {
     font-size: 2.4rem;
@@ -101,6 +104,7 @@ button:hover {
 
 section p {
     line-height: 160%;
+
    
 }
 
