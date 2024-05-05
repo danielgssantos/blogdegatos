@@ -26,6 +26,8 @@ html, body, input {
     grid-template-rows: max-content 1fr max-content;
     height: 100vh;
     
+    
+    
 }
 
 
@@ -56,6 +58,7 @@ header nav input {
     height: 4.0rem;
     background: #387e96;
     font-weight: 600;
+    color: #ffffff;
 
 }
 
@@ -63,21 +66,17 @@ header nav input::placeholder {
    
     color: #ffffff;
     opacity: 0.56;
+    padding: 1.4rem;
+
     
 }
 
-main, section {
-    padding: 2.2rem;
-}
-
-
-
 .cat {
    
-    width: 100%;
+    
     margin-bottom: 3.1rem;
+    
 }
-
 
 h1 {
     font-size: 2.4rem;
@@ -93,6 +92,7 @@ button {
     padding: 1.2rem;
     margin-bottom: 0.8rem;
     margin-right: 1.2rem;
+
 
 }
 
@@ -141,4 +141,50 @@ footer {
     background: #387e96;
     color: #ffffff;
     height: 6.4rem;
+}
+
+
+@media (min-width: 700px) {
+
+    body {
+        max-width: fit-content; 
+           
+    }
+
+    #app {
+        grid-template-areas:
+            "A A A"
+            "B B C"
+            "D D D";
+    }
+
+    #app header {
+        grid-area: A;
+    }
+
+    #app main {
+        grid-area: B;
+    }
+
+    #app aside {
+        grid-area: c;
+    }
+
+    #app footer {
+        grid-area: D;
+    }
+
+    aside {
+        margin-top: 0;
+    }
+
+  
+
+     main {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 3.1rem;
+        justify-content: space-between;
+        padding: 0;
+    }
 }
